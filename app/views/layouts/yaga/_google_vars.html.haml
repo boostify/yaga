@@ -1,0 +1,5 @@
+- unless session[:custom_vars].nil?
+  - session[:custom_vars].each do |var|
+    _gaq.push(['_setCustomVar', #{format_custom_var var}]);
+
+- session[:custom_vars] = Array.new
