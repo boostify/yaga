@@ -1,5 +1,7 @@
 # Yaga
 
+[![Build Status](https://travis-ci.org/opahk/yaga.png?branch=master)](https://travis-ci.org/opahk/yaga)
+
 Yet another Google Analytics at your flexible service.
 
 Supports multiple environments, custom variables, events and anonymizeIP.
