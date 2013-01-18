@@ -20,7 +20,7 @@ module YagaHelper
     end
   end
 
-  protected
+  #protected
 
     def queue_event(event)
       session[:events] ||= Array.new

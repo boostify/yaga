@@ -3,3 +3,4 @@ require "yaga/version"
 
 module Yaga
 end
+
