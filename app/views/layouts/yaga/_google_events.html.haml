@@ -1,5 +1,5 @@
-- unless session[:events].nil?
-  - session[:events].each do |event|
+- unless session[:yaga_events].nil?
+  - session[:yaga_events].each do |event|
     _gaq.push(['_trackEvent', #{format_event event}]);
 
-- session[:events] = Array.new
+- session[:yaga_events] = Array.new

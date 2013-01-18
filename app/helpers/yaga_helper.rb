@@ -23,12 +23,12 @@ module YagaHelper
   #protected
 
     def queue_event(event)
-      session[:events] ||= Array.new
-      session[:events] << event
+      session[:yaga_events] ||= Array.new
+      session[:yaga_events] << event
     end
 
     def queue_custom_var(var)
-      session[:custom_vars] ||= Array.new
-      session[:custom_vars] << var
+      session[:yaga_custom_vars] ||= Array.new
+      session[:yaga_custom_vars] << var
     end
 end
