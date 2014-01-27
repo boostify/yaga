@@ -28,6 +28,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "appraisal"
   if ENV['RUBY_VERSION'] =~ /rbx/
     gem.add_dependency 'rubysl'
+    gem.add_dependency 'racc'
+    gem.add_development_dependency 'rubysl-test-unit'
     gem.add_development_dependency 'rubinius-coverage'
   end
 end
